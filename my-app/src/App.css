@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button {
+  border: none;
+  background: none;
+  font: inherit;
+}
+
+button:focus {
+  border: none;
+}
+
+.Image img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+}
+
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Main,
+.Result {
+  width: 50vw;
+}
+
+.Logo {
+  font-size: 3rem;
+}
+
+.Main .StartBtn,
+.Result .RestartBtn {
+  width: 100%;
+  text-align: left;
+  padding: 0.5rem 1rem;
+  margin: 1rem 0;
+  border: 1px solid #000000;
+}
+
+.Quiz .QuizText {
+  margin-bottom: 0.5rem;
+}
+
+.Quiz .Options button {
+  width: 100%;
+  text-align: left;
+  padding: 0.5rem 1rem;
+  margin: 1rem 0;
+  margin-right: 0.5rem;
+  border: 1px solid #000000;
+}
+
+.ImageBox {
+  width: 300px;
+  height: 300px;
+  margin: 1rem 0;
+  background-color: black;
+}
+
+.ResultText {
+  width: 90%;
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .Main,
+  .Quiz,
+  .Result {
+    width: 70vw;
+  }
+
+  .ImageBox {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+  }
+}
