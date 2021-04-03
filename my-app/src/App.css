@@ -73,6 +73,13 @@ button:focus {
   font-size: 2rem;
 }
 
+.Timer {
+  border: 1px solid black;
+  display: inline-block;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
 @media screen and (max-width: 768px) {
   .Main,
   .Quiz,

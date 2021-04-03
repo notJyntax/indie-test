@@ -3,8 +3,8 @@ import {QuizContext} from '../Helpers/Contexts';
 
 
 export default function Result(){
-const { score, setScore, setGameState } = useContext(QuizContext);
-const [result, setResult ] = useState("");
+const { score } = useContext(QuizContext);
+const [result, setResult] = useState("");
 
 useEffect(() => {
   if(score < 10) {
@@ -16,12 +16,12 @@ useEffect(() => {
   }else if(score > 17){
     setResult("당신은 악귀")
   }
-})
+}, [])
 
   return(
     <div className="Result">
       <h1 className="Logo">Result</h1>
-      <div className="ImageBox"></div>
+      <div className="ImageBox" />
       <div className="ResultText">{result}</div>
       <button className="RestartBtn" onClick={()=>{window.location.reload()}}>restart</button>
     </div>
