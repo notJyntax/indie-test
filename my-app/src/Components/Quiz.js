@@ -67,7 +67,6 @@ export default function Quiz(){
 
   return(
     <div className="Quiz">
-      <div className="TimeBar">{timeBar}</div>
       <div className="Timer">{timer}</div>
       <h1 className="QuizText">{Questions[currQuestion].q}</h1>
       <div className="Image">

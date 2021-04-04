@@ -35,12 +35,21 @@ button:focus {
   width: 50vw;
 }
 
+.Main .StartBtn {
+  margin-top: 1rem;
+}
+
+.Quiz {
+  width: 30vw;
+}
+
 .Logo {
   font-size: 3rem;
 }
 
 .Main .StartBtn,
-.Result .RestartBtn {
+.Result .RestartBtn,
+.CopyLinkBtn {
   width: 100%;
   text-align: left;
   padding: 0.5rem 1rem;
@@ -61,16 +70,43 @@ button:focus {
   border: 1px solid #000000;
 }
 
+.Quiz img {
+  width: 400px;
+  height: 400px;
+  object-fit: contain;
+}
+
+.Main img,
+.Result img,
 .ImageBox {
   width: 300px;
   height: 300px;
-  margin: 1rem 0;
-  background-color: black;
+  object-fit: cover;
 }
 
-.ResultText {
+.ResultBox {
   width: 90%;
   font-size: 2rem;
+}
+
+.ResultBox > h3 {
+  text-align: right;
+  font-size: 4rem;
+  border-bottom: 1px solid black;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+}
+
+.ResultBox p {
+  font-size: 1.5rem;
+  border: 1px solid black;
+  padding: 2rem 1.5rem;
+}
+
+.Result .ImageBox img {
+  width: 400px;
+  object-fit: contain;
+  border-radius: 50%;
 }
 
 .Timer {
@@ -80,16 +116,10 @@ button:focus {
   margin-bottom: 1rem;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .Main,
   .Quiz,
   .Result {
     width: 70vw;
-  }
-
-  .ImageBox {
-    width: 250px;
-    height: 250px;
-    object-fit: cover;
   }
 }
