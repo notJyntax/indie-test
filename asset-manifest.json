@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/indie-test/static/css/main.b7138e91.chunk.css",
-    "main.js": "/indie-test/static/js/main.b250629c.chunk.js",
-    "main.js.map": "/indie-test/static/js/main.b250629c.chunk.js.map",
+    "main.css": "/indie-test/static/css/main.ecc5474b.chunk.css",
+    "main.js": "/indie-test/static/js/main.d8c04846.chunk.js",
+    "main.js.map": "/indie-test/static/js/main.d8c04846.chunk.js.map",
     "runtime-main.js": "/indie-test/static/js/runtime-main.f0015768.js",
     "runtime-main.js.map": "/indie-test/static/js/runtime-main.f0015768.js.map",
     "static/js/2.83674a34.chunk.js": "/indie-test/static/js/2.83674a34.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.3e202f2e.chunk.js": "/indie-test/static/js/3.3e202f2e.chunk.js",
     "static/js/3.3e202f2e.chunk.js.map": "/indie-test/static/js/3.3e202f2e.chunk.js.map",
     "index.html": "/indie-test/index.html",
-    "static/css/main.b7138e91.chunk.css.map": "/indie-test/static/css/main.b7138e91.chunk.css.map",
+    "static/css/main.ecc5474b.chunk.css.map": "/indie-test/static/css/main.ecc5474b.chunk.css.map",
     "static/js/2.83674a34.chunk.js.LICENSE.txt": "/indie-test/static/js/2.83674a34.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.f0015768.js",
     "static/js/2.83674a34.chunk.js",
-    "static/css/main.b7138e91.chunk.css",
-    "static/js/main.b250629c.chunk.js"
+    "static/css/main.ecc5474b.chunk.css",
+    "static/js/main.d8c04846.chunk.js"
   ]
 }
