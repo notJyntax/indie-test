@@ -120,6 +120,6 @@ button:focus {
   .Main,
   .Quiz,
   .Result {
-    width: 70vw;
+    width: 90vw;
   }
 }

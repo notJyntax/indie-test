@@ -56,10 +56,6 @@ export default function Quiz(){
     return deadline
   }
 
-  const timeBar = () => {
-    
-  }
-
   useEffect(()=>{
     clearTimer(getDeadlineTime())
     return () => {if(interval.current) clearInterval(interval.current)}

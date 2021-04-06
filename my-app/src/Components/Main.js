@@ -9,7 +9,7 @@ export default function Main(){
     <div className="Main">
       <h1 className="Logo">Indie <br />Maniac Test</h1>
       <div className="ImageBox">
-        <img src="images/002.jpeg" alt="메인 이미지" />
+        <img src="/images/002.jpeg" alt="메인 이미지" />
       </div>
         <button className="StartBtn" onClick={() => { setGameState("quiz") }}>start</button>
         <ClipboardCopy />
