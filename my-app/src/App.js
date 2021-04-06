@@ -1,9 +1,10 @@
 import { useState } from 'react'
+import { QuizContext } from './Helpers/Contexts'
 import './App.css'
 import Main from './Components/Main'
 import Quiz from './Components/Quiz'
 import Result from './Components/Result'
-import { QuizContext } from './Helpers/Contexts'
+
 
 export default function App() {
   const [gameState, setGameState] = useState('main')

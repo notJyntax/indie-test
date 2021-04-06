@@ -65,7 +65,7 @@ export default function Quiz(){
     <div className="Quiz">
       <div className="Timer">{timer}</div>
       <h1 className="QuizText">{Questions[currQuestion].q}</h1>
-      <div className="Image">
+      <div className="ImageBox">
         <img src={imgSrc} alt={Questions[currQuestion].q}/>
       </div>
       <div className="Options">

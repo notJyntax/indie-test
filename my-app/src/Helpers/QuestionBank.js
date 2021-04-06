@@ -85,9 +85,9 @@ export const Questions = [
   },
   {
     q: "다음 곡의 아티스트는?",
-    image: "./images/15.jpeg",
+    image: "./images/15.png",
     options: ["솔루션스", "브로큰 발렌타인", "라이프 앤 타임", "쏜애들"],
-    answer: "쏜애플",
+    answer: "브로큰 발렌타인",
   },
   {
     q: "다음 곡이 수록되어있는 앨범 이름은?",
@@ -109,13 +109,13 @@ export const Questions = [
   },
   {
     q: "다음 앨범의 발매일은?",
-    image: "./images/19.png",
+    image: "./images/19.jpeg",
     options: ["2003.01.24", "2007.10.21", "2004.03.29", "2001.09.12"],
     answer: "2003.01.24",
   },
   {
     q: "다음 중 현재 음반사(사진)에 없는 사람은?",
-    image: "./images/2.jpeg",
+    image: "./images/20.png",
     options: ["권나무", "이영훈", "구원찬", "소수빈"],
     answer: "권나무",
   },

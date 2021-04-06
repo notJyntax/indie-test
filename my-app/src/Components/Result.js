@@ -25,9 +25,9 @@ useEffect(() => {
         <p>{result.text}</p>
       </div>
       <div className="ImageBox">
-        <img src="images/001.jpeg" alt="결과 이미지" />
+        <img src="./images/main.jpeg" alt="결과 이미지" />
       </div>
-      <button className="RestartBtn" onClick={ () => { window.location.reload() } }>restart</button>
+      <button className="RestartBtn" onClick={()=>{window.location.reload()}}>restart</button>
       <ClipboardCopy />
     </div>
   )

@@ -14,12 +14,6 @@ button:focus {
   border: none;
 }
 
-.Image img {
-  width: 250px;
-  height: 250px;
-  object-fit: cover;
-}
-
 .App {
   width: 100vw;
   height: 100vh;
@@ -35,16 +29,16 @@ button:focus {
   width: 50vw;
 }
 
-.Main .StartBtn {
-  margin-top: 1rem;
-}
-
 .Quiz {
   width: 30vw;
 }
 
-.Logo {
+.Main .Logo {
   font-size: 3rem;
+}
+
+.ImageBox {
+  margin: 1rem 0;
 }
 
 .Main .StartBtn,
@@ -55,6 +49,10 @@ button:focus {
   padding: 0.5rem 1rem;
   margin: 1rem 0;
   border: 1px solid #000000;
+}
+
+.Main .StartBtn {
+  margin-top: 1rem;
 }
 
 .Quiz .QuizText {
@@ -70,21 +68,19 @@ button:focus {
   border: 1px solid #000000;
 }
 
+.Main img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
 .Quiz img {
   width: 400px;
   height: 400px;
   object-fit: contain;
 }
 
-.Main img,
-.Result img,
-.ImageBox {
-  width: 300px;
-  height: 300px;
-  object-fit: cover;
-}
-
-.ResultBox {
+.Result .ResultBox {
   width: 90%;
   font-size: 2rem;
 }
@@ -121,5 +117,9 @@ button:focus {
   .Quiz,
   .Result {
     width: 90vw;
+  }
+
+  .ImageBox img {
+    width: 80vw;
   }
 }
